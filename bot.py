@@ -97,3 +97,16 @@ if __name__ == "__main__":
 
     nest_asyncio.apply()
     asyncio.get_event_loop().run_until_complete(main())
+from flask import Flask
+import threading
+
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "Bot is alive!"
+
+def run():
+    app.run(host="0.0.0.0", port=8080)
+
+threading.Thread(target=run).start()
