@@ -1,0 +1,47 @@
+{
+  "UzAnimeDub": {
+    "Solo Leveling": {
+      "code": "SL001",
+      "year": 2024,
+      "japanese": "Ore dake Level Up na Ken",
+      "english": "Solo Leveling",
+      "russian": "Поднятие уровня в одиночку",
+      "seasons": {
+        "1-sezon": [
+          { "name": "1-qism", "link": "https://t.me/yourchannel/1" },
+          { "name": "2-qism", "link": "https://t.me/yourchannel/2" }
+        ],
+        "2-sezon": [
+          { "name": "1-qism", "link": "https://t.me/yourchannel/3" }
+        ]
+      }
+    },
+    "Naruto": {
+      "code": "NRT001",
+      "year": 2002,
+      "japanese": "ナルト",
+      "english": "Naruto",
+      "russian": "Наруто",
+      "seasons": {
+        "1-sezon": [
+          { "name": "1-qism", "link": "https://t.me/yourchannel/n1" },
+          { "name": "2-qism", "link": "https://t.me/yourchannel/n2" }
+        ]
+      }
+    }
+  },
+  "Animuz": {
+    "Example Anime": {
+      "code": "EX001",
+      "year": 2020,
+      "japanese": "例のアニメ",
+      "english": "Example Anime",
+      "russian": "Примерное аниме",
+      "seasons": {
+        "1-sezon": [
+          { "name": "1-qism", "link": "https://example.com/ep1" }
+        ]
+      }
+    }
+  }
+}
